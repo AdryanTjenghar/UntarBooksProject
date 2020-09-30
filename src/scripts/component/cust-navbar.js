@@ -41,7 +41,7 @@ class custNavBar extends HTMLElement {
                </li>
                <li>
                    <form class="form-inline w-100">
-                       <input class="form-control p-0" size="100%" type="search" placeholder="Search Books" id="searchElement" aria-label="Search">
+                       <input class="form-control p-0" size="95%" type="search" placeholder="  Search Books" id="searchElement" aria-label="Search">
                        <button class="btn btn-outline-secondary" id="searchButtonElement" type="submit">
                            <i data-feather="search"></i>
                        </button>

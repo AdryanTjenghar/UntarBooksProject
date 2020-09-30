@@ -20,6 +20,13 @@ body {
 }
 
 main {
-    width: 90%;
+    padding-top: 20px;
+    width: 95%;
     margin: auto;
+}
+
+.card{
+    width: 400px;
+    height: 280px;
+    margin: 5px;
 }
