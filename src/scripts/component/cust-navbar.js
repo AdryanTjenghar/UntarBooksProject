@@ -15,13 +15,8 @@ class custNavBar extends HTMLElement {
   render () {
     this.innerHTML = `
       <header>
-      <nav class="navbar navbar-default"></nav>
-      <nav class="navbar navbar-default"></nav>
-      <nav class="navbar navbar-default"></nav>
-      <nav class="navbar navbar-default"></nav>
-      <nav class="navbar navbar-default"></nav>
-      <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-         <span class="navbar-brand h1 align-top">
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+         <span class="navbar-brand h1">
            <i data-feather="layers"></i> Your Books Catalog
          </span>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +35,8 @@ class custNavBar extends HTMLElement {
                    </a>
                </li>
                <li>
-                   <form class="form-inline w-100">
-                       <input class="form-control p-0" size="100%" type="search" placeholder="  Search Books" id="searchElement" aria-label="Search">
+                   <form class="form-inline w-80">
+                       <input class="form-control p-30" size="95%" type="search" placeholder="Search Books" id="searchElement" aria-label="Search">
                        <button class="btn btn-outline-secondary" id="searchButtonElement" type="submit">
                            <i data-feather="search"></i>
                        </button>

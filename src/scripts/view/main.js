@@ -40,7 +40,7 @@ function main () {
   }
   const renderTitlePop = () => {
     const titleElement = document.querySelector('#title-page')
-    titleElement.innerHTML = '<h1>Novel Books</h1>'
+    titleElement.innerHTML = '<h1 id="title1">Novel Books</h1>'
   }
   const renderTitleSearch = () => {
     const titleElement = document.querySelector('#title-page')
